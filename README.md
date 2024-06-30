@@ -4,7 +4,7 @@ react-vite-cheat-sheet
 ## INICIAR PROJETO
 
 NO TERMINAL:
-
+<code>
 npm create vite@latest
  > project name: <escolher nome>
  > framework: <react>
@@ -13,3 +13,4 @@ npm create vite@latest
 cd <nome do projeto>
 npm install
 npm run dev
+</code>
