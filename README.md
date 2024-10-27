@@ -14,3 +14,12 @@ cd <nome do projeto>
 npm install
 npm run dev
 </code>
+
+
+deploy:
+<code>
+git add .
+git commit -m "<message>"
+git push
+
+* projeto recibo já configurado para fazer deploy no firebase automatico
