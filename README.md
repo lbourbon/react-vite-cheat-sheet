@@ -14,7 +14,14 @@ cd <nome do projeto>
 npm install
 npm run dev
 </code>
-
+<code>
+firebase init
+</code>
+public: dist !!!!!!!
+adicionar ao index.html na pasta dist:
+<code>
+<script src="/main.jsx" type="module"></script>
+</code>
 
 deploy:
 <code>
