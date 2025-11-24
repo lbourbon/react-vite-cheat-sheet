@@ -23,10 +23,17 @@ adicionar ao index.html na pasta dist:
 <script src="/main.jsx" type="module"></script>
 </code>
 
-deploy:
+commit:
 <code>
 git add .
 git commit -m "<message>"
 git push
-
+</code>
 * projeto recibo já configurado para fazer deploy no firebase automatico
+deploy:
+
+BETA:
+<code>
+npm run build:beta
+firebase deploy --only hosting:beta
+</code>
