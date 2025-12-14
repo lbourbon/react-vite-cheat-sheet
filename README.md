@@ -32,8 +32,14 @@ git push
 * projeto recibo já configurado para fazer deploy no firebase automatico
 deploy:
 
-BETA:
+DEPLOY BETA:
 <code>
 npm run build:beta
 firebase deploy --only hosting:beta
+</code>
+
+DEPLOY NORMAL:
+<code>
+npm run build
+firebase deploy
 </code>
