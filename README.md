@@ -16,6 +16,13 @@ npm run dev
 </code>
 <code>
 firebase init
+
+<h3>CUIDADO!! AO INICIAR, O FIREBASE PODE JOGAR PARA UM PROJETO JÁ EXISTENTE!!!</h3>he>
+<code>firebase use --clear
+firebase use --add
+</code> 
+PARA ESCOLHER UM NOVO PROJETO
+
 </code>
 public: dist !!!!!!!
 adicionar ao index.html na pasta dist:
