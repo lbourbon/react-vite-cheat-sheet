@@ -17,7 +17,9 @@ npm run dev
 <code>
 firebase init
 
-<h3>CUIDADO!! AO INICIAR, O FIREBASE PODE JOGAR PARA UM PROJETO JÁ EXISTENTE!!!</h3>he>
+<h3>CUIDADO!! AO INICIAR, O FIREBASE PODE JOGAR PARA UM PROJETO JÁ EXISTENTE!!!</h3>
+
+<code>cat .firebaserc</code> para saber qual projeto está vinculado
 <code>firebase use --clear
 firebase use --add
 </code> 
