@@ -52,3 +52,8 @@ DEPLOY NORMAL:
 npm run build
 firebase deploy
 </code>
+<code>
+
+prod: npm run build e depois firebase deploy --only hosting:prod
+beta: npm run build:beta e depois firebase deploy --only hosting:beta
+desenvolver vendo o MODELO 2: npm run dev:beta
